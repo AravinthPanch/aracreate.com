@@ -1,0 +1,176 @@
+.navbar-nav li, 
+.navbar-nav li a{
+	color: #445063;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a.active{
+	color: #f73861;
+}
+
+.btn.store-btn,
+.btn.store-btn.fill-style:hover{
+	border-color: #99a1af;
+}
+
+.btn.store-btn,
+.btn.store-btn.fill-style:hover{
+	color: #99a1af;
+}
+
+.btn.store-btn svg, 
+.btn.store-btn svg path,
+.btn.store-btn.fill-style:hover svg, 
+.btn.store-btn.fill-style:hover svg path{
+	fill: #99a1af;
+}
+
+.btn.store-btn:hover,
+.btn.store-btn.fill-style{
+	color: #fff;
+	border-color: #f73861;
+    background-color: #f73861;
+}
+
+.btn.store-btn:hover svg, 
+.btn.store-btn:hover svg path,
+.btn.store-btn.fill-style svg,
+.btn.store-btn.fill-style svg path{
+    fill: #fff;
+}
+
+.home-2-banner .banner-img{
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.h2-img-shadow{
+	position: relative;
+	display: inline-block;
+}
+
+.h2-img-shadow:after{
+	content: "";
+	position: absolute;
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+	top: 2px;
+	left: 2px;
+	border-radius: 40px;
+	display: block;
+	box-shadow: 40px 69.282px 105.6px 14.4px rgba(0, 0, 0, 0.25),10px 17.321px 22.56px 1.44px rgba(0, 0, 0, 0.12);
+}
+
+.icon-box .icon-box-icon i,
+.icon-box.awf-item .icon-box-icon i{
+    background-image: -moz-linear-gradient(360deg, #fe724e 0%, #f73861 100%);
+    background-image: -webkit-linear-gradient(360deg, #fe724e 0%, #f73861 100%);
+    background-image: -ms-linear-gradient(360deg, #fe724e 0%, #f73861 100%);
+    background-image: linear-gradient(360deg, #fe724e 0%, #f73861 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn:hover,
+.pricing-footer a:hover,
+.btn.fill-style{
+    background-color: #f73861;
+    border-color: #f73861;
+}
+
+.pricing-badge .badge-name{
+	background-color: #f73861;
+}
+
+.pricing-badge .badge-name:after{
+	border-top-color: #f73861;
+	border-bottom-color: #f73861;
+}
+
+.s-title::after{
+    background: -webkit-linear-gradient(left, rgb(254,114,78) 0%,rgb(247,56,97) 100%);
+    background: linear-gradient(to right, rgb(254,114,78) 0%,rgb(247,56,97) 100%);
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+	border-color: #f74168;
+}
+
+.pricing-body ul li i.icon_check{
+	color: #f73861;
+}
+
+.blog-post .post-thumb:hover .meta-date{
+	background-color: rgba(247, 55, 97, .9);
+}
+
+.blog-post .post-title a:hover,
+.blog-post .post-meta a:hover,
+.f-nav li a:hover,
+.f-newsletter .input-group-btn button:hover,
+.navbar.sticky-nav .navbar-nav li a:hover, 
+.navbar.sticky-nav .navbar-nav li a.active,
+.f-widget .f-list li a:hover,
+.social-profile li a:hover,
+.copyright a{
+    color: #f73861;
+}
+
+.navbar-nav li a.nav-link-scroll::after, 
+.navbar-nav li a.nav-link-scroll::before,
+.navbar.sticky-nav .navbar-nav li a.nav-link-scroll::after, 
+.navbar.sticky-nav .navbar-nav li a.nav-link-scroll::before,
+.nav-button a,
+.navbar.sticky-nav .nav-button a{
+    background-color: #f73861;
+}
+
+.nav-button a{
+	color: #fff;
+}
+
+.f-widget .f-list li a:after {
+    border-top-color: #B43152;
+    border-bottom-color: #642940;
+}
+
+.video-sec .overlay{
+	background: -moz-linear-gradient( 90deg, rgb(254,114,78) 0%, rgb(247,56,97) 100%);
+	background: -webkit-linear-gradient( 90deg, rgb(254,114,78) 0%, rgb(247,56,97) 100%);
+	background: -ms-linear-gradient( 90deg, rgb(254,114,78) 0%, rgb(247,56,97) 100%);
+	background: linear-gradient( 90deg, rgb(254,114,78) 0%, rgb(247,56,97) 100%);
+}
+
+.video-play-btn a{
+	background: -webkit-linear-gradient( -140deg, rgb(250,99,131) 0%, rgb(247,56,97) 100%);
+	background: -ms-linear-gradient( -140deg, rgb(250,99,131) 0%, rgb(247,56,97) 100%);
+	background: linear-gradient( -140deg, rgb(250,99,131) 0%, rgb(247,56,97) 100%);
+}
+
+.testimonial-btn-next:hover,
+.testimonial-btn-prev:hover{
+	border-color: #f73761;
+	background-color: #f73761;
+}
+
+.scroll-top{
+	background: -webkit-linear-gradient( 40deg, rgb(247,56,97) 0%, rgb(254,114,78) 100%);
+	background: linear-gradient( 40deg, rgb(247,56,97) 0%, rgb(254,114,78) 100%);
+}
+
+.m-s-input:before{
+	background: -webkit-linear-gradient( -90deg, rgb(247,56,97) 0%, rgb(254,114,78) 100%);
+    background: linear-gradient( -90deg, rgb(247,56,97) 0%, rgb(254,114,78) 100%);
+}
+
+.menu-toggle .hamburger span, 
+.menu-toggle .hamburger-cross span{
+	background-color: #000;
+}
+
+.btn,
+.btn.fill-style:hover{
+	color: #99a1af;
+	border-color: #99a1af
+}

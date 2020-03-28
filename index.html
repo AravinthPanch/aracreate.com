@@ -1,299 +1,798 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="aravinth">
+	<meta charset="UTF-8">
+	<title>araCreate</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--favicon icon-->
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
-
-    <title>App Landing</title>
-
-    <!--common style-->
-    <link href='http://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic,200italic,200' rel='stylesheet' type='text/css'>
-
-    <!-- inject:css -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/vendor/animate/animate.css">
-    <link rel="stylesheet" href="assets/vendor/elasic-slider/elastic.css">
-    <link rel="stylesheet" href="assets/vendor/iconmoon/linea-icon.css">
-    <link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.theme.css">
-    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/shortcodes.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/default-theme.css">
-    <!-- endinject -->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="assets/vendor/backward/html5shiv.js"></script>
-    <script src="assets/vendor/backward/respond.min.js"></script>
-    <![endif]-->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/lightcase.css">
+	<link rel="stylesheet" href="assets/css/simple-line-icons.css">
+	<link rel="stylesheet" href="assets/css/ElegantIcons.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/home-4-style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
+<body data-spy="scroll" data-target=".navbar">
+	<header class="header">
+		<nav class="navbar navbar-expand-lg fixed-top" id="main-nav">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img class="white-logo" src="assets/images-this/aracreate-logo-website-white.png" style="width:60%">
+					<img class="color-logo" src="assets/images-this/aracreate-logo-website-color.png" style="width:60%">
+				</a>
+				<button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#main-nav-collapse" aria-controls="main-nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="menu-toggle">
+                        <span class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                        <span class="hamburger-cross">
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </span>
+				</button>
+				<div class="collapse navbar-collapse order-3 order-lg-2" id="main-nav-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="index.html">App - Wave version - 01</a></li>
+                                <li class="nav-item"><a class="nav-link" href="home-3.html">App - Wave version - 02</a></li>
+                                <li class="nav-item"><a class="nav-link" href="home-9.html">App Shape version - 01</a></li>
+                                <li class="nav-item"><a class="nav-link" href="home-10.html">App Shape version - 02</a></li>
+                                <li class="nav-item"><a class="nav-link" href="home-4.html">App - Particle Animation</a></li>
+                                <li class="nav-item"><a class="nav-link" href="home-5.html">App - Youtube Video Option</a></li>
+                                <li class="nav-item"><a class="nav-link" href="home-8.html">App - Background Video version</a></li>
+                                <li class="nav-item"><a class="nav-link" href="home-6.html">App - Image Background</a></li>
+                                <li class="nav-item"><a class="nav-link" href="home-2.html">App - Slider version</a></li>
+                                <li class="nav-item"><a class="nav-link" href="home-7.html">App With Watch</a></li>
+                            </ul>
+                        </li>
+						<li class="nav-item">
+							<a class="nav-link nav-link-scroll" href="#feature">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nav-link-scroll" href="#screenshot">Screenshots</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nav-link-scroll" href="#faq">FAQ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nav-link-scroll" href="#pricing">Pricing</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nav-link-scroll" href="#download">Download</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nav-link-scroll" href="#contact">contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-search order-2 order-lg-3">
+					<i class="fa fa-search"></i>
+				</div>
+			</div>
+		</nav>
+	</header><!-- header -->
+	<section class="home-4-banner main-banner main-slider" id="banner">
+		<div class="swiper-container iconic-main-slider home-4-slider iconic-top-slider w-100">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<div class="container">
+		        		<div class="row align-items-center">
+		        			<div class="col-lg-6 col-md-7">
+		        				<div class="banner-content">
+	        						<h2 class="title" data-wow-duration=".65s"  data-wow-delay=".1s">Showcase your app with Appbiz</h2>
+	        						<span class="sub-title" data-wow-duration=".65s" data-wow-delay=".3s">Introducing the most advanced social app on the market, the one you always wanted.</span>
+		        					<div class="btn-wrapper">
+		        						<a class="btn store-btn fill-style" data-wow-duration=".65s" data-wow-delay=".4s" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="26px"><path fill-rule="evenodd"  fill="rgb(96, 56, 247)" d="M19.618,13.605 L15.283,16.531 L12.240,13.090 L15.570,9.324 L19.618,12.058 C19.857,12.219 20.000,12.508 20.000,12.832 C20.000,13.154 19.857,13.442 19.618,13.605 ZM0.662,-0.003 L10.427,5.850 L14.882,8.859 L11.691,12.469 L0.662,-0.003 ZM-0.000,25.689 L0.010,0.502 L11.142,13.090 L-0.000,25.689 ZM14.596,16.996 L10.443,19.799 L0.824,25.998 L11.691,13.710 L14.596,16.996 Z"/></svg> <span>Google Play</span></a>
+		        						<a class="btn store-btn" data-wow-duration=".65s" data-wow-delay=".6s"  href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21px" height="24px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M18.423,9.825 C17.802,10.691 17.490,11.644 17.490,12.687 C17.490,13.828 17.820,14.856 18.481,15.769 C19.141,16.681 19.897,17.262 20.749,17.510 C20.376,18.662 19.787,19.814 18.983,20.967 C17.749,22.773 16.519,23.675 15.294,23.675 C14.825,23.675 14.155,23.527 13.284,23.233 C12.461,22.938 11.738,22.792 11.116,22.792 C10.532,22.792 9.853,22.943 9.077,23.248 C8.302,23.561 7.671,23.716 7.182,23.716 C5.728,23.716 4.287,22.524 2.861,20.138 C1.454,17.732 0.751,15.414 0.751,13.184 C0.751,11.082 1.292,9.360 2.373,8.014 C3.445,6.687 4.804,6.023 6.450,6.023 C7.139,6.023 7.986,6.162 8.991,6.438 C9.987,6.715 10.647,6.854 10.973,6.854 C11.403,6.854 12.088,6.696 13.026,6.384 C14.002,6.071 14.830,5.913 15.509,5.913 C16.648,5.913 17.667,6.213 18.567,6.811 C19.065,7.143 19.562,7.605 20.060,8.194 C19.304,8.812 18.759,9.355 18.423,9.825 ZM13.600,5.084 C13.083,5.581 12.566,5.913 12.049,6.080 C11.695,6.181 11.197,6.259 10.556,6.314 C10.585,4.940 10.958,3.757 11.676,2.761 C12.384,1.776 13.581,1.093 15.265,0.715 C15.275,0.743 15.287,0.794 15.301,0.867 C15.315,0.941 15.327,0.992 15.337,1.020 C15.337,1.057 15.339,1.102 15.344,1.157 C15.349,1.213 15.351,1.259 15.351,1.297 C15.351,1.858 15.212,2.486 14.935,3.175 C14.648,3.867 14.203,4.503 13.600,5.084 Z"/></svg> <span>App Store</span></a>
+		        					</div>
+		        				</div>
+		        			</div>
+		        			<div class="col-lg-6 col-md-4 offset-lg-0 offset-md-1">
+		        				<div class="img-wrapper img-right banner-img">
+		        					<img src="assets/images/h4-b-mobile.png" alt="">
+		        				</div>
+		        			</div>
+		        		</div>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide">
+		        	<div class="container">
+		        		<div class="row align-items-center">
+		        			<div class="col-lg-6 col-md-7">
+		        				<div class="banner-content">
+	        						<h2 class="title" data-wow-duration=".65s"  data-wow-delay=".1s">Showcase your app with Appbiz</h2>
+	        						<span class="sub-title" data-wow-duration=".65s" data-wow-delay=".3s">Introducing the most advanced social app on the market, the one you always wanted.</span>
+		        					<div class="btn-wrapper">
+		        						<a class="btn store-btn fill-style" data-wow-duration=".65s" data-wow-delay=".4s" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="26px"><path fill-rule="evenodd"  fill="rgb(96, 56, 247)" d="M19.618,13.605 L15.283,16.531 L12.240,13.090 L15.570,9.324 L19.618,12.058 C19.857,12.219 20.000,12.508 20.000,12.832 C20.000,13.154 19.857,13.442 19.618,13.605 ZM0.662,-0.003 L10.427,5.850 L14.882,8.859 L11.691,12.469 L0.662,-0.003 ZM-0.000,25.689 L0.010,0.502 L11.142,13.090 L-0.000,25.689 ZM14.596,16.996 L10.443,19.799 L0.824,25.998 L11.691,13.710 L14.596,16.996 Z"/></svg> <span>Google Play</span></a>
+		        						<a class="btn store-btn" data-wow-duration=".65s" data-wow-delay=".6s"  href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21px" height="24px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M18.423,9.825 C17.802,10.691 17.490,11.644 17.490,12.687 C17.490,13.828 17.820,14.856 18.481,15.769 C19.141,16.681 19.897,17.262 20.749,17.510 C20.376,18.662 19.787,19.814 18.983,20.967 C17.749,22.773 16.519,23.675 15.294,23.675 C14.825,23.675 14.155,23.527 13.284,23.233 C12.461,22.938 11.738,22.792 11.116,22.792 C10.532,22.792 9.853,22.943 9.077,23.248 C8.302,23.561 7.671,23.716 7.182,23.716 C5.728,23.716 4.287,22.524 2.861,20.138 C1.454,17.732 0.751,15.414 0.751,13.184 C0.751,11.082 1.292,9.360 2.373,8.014 C3.445,6.687 4.804,6.023 6.450,6.023 C7.139,6.023 7.986,6.162 8.991,6.438 C9.987,6.715 10.647,6.854 10.973,6.854 C11.403,6.854 12.088,6.696 13.026,6.384 C14.002,6.071 14.830,5.913 15.509,5.913 C16.648,5.913 17.667,6.213 18.567,6.811 C19.065,7.143 19.562,7.605 20.060,8.194 C19.304,8.812 18.759,9.355 18.423,9.825 ZM13.600,5.084 C13.083,5.581 12.566,5.913 12.049,6.080 C11.695,6.181 11.197,6.259 10.556,6.314 C10.585,4.940 10.958,3.757 11.676,2.761 C12.384,1.776 13.581,1.093 15.265,0.715 C15.275,0.743 15.287,0.794 15.301,0.867 C15.315,0.941 15.327,0.992 15.337,1.020 C15.337,1.057 15.339,1.102 15.344,1.157 C15.349,1.213 15.351,1.259 15.351,1.297 C15.351,1.858 15.212,2.486 14.935,3.175 C14.648,3.867 14.203,4.503 13.600,5.084 Z"/></svg> <span>App Store</span></a>
+		        					</div>
+		        				</div>
+		        			</div>
+		        			<div class="col-lg-6 col-md-4 offset-lg-0 offset-md-1">
+		        				<div class="img-wrapper img-right banner-img">
+		        					<div class="h2-img-shadow">
+		        						<img src="assets/images/h4-b-mobile2.png" alt="">
+		        					</div>
+		        				</div>
+		        			</div>
+		        		</div>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide">
+		        	<div class="container">
+		        		<div class="row align-items-center">
+		        			<div class="col-lg-6 col-md-7">
+		        				<div class="banner-content">
+	        						<h2 class="title" data-wow-duration=".65s"  data-wow-delay=".1s">Showcase your app with Appbiz</h2>
+	        						<span class="sub-title" data-wow-duration=".65s" data-wow-delay=".3s">Introducing the most advanced social app on the market, the one you always wanted.</span>
+		        					<div class="btn-wrapper">
+		        						<a class="btn store-btn fill-style" data-wow-duration=".65s" data-wow-delay=".4s" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="26px"><path fill-rule="evenodd"  fill="rgb(96, 56, 247)" d="M19.618,13.605 L15.283,16.531 L12.240,13.090 L15.570,9.324 L19.618,12.058 C19.857,12.219 20.000,12.508 20.000,12.832 C20.000,13.154 19.857,13.442 19.618,13.605 ZM0.662,-0.003 L10.427,5.850 L14.882,8.859 L11.691,12.469 L0.662,-0.003 ZM-0.000,25.689 L0.010,0.502 L11.142,13.090 L-0.000,25.689 ZM14.596,16.996 L10.443,19.799 L0.824,25.998 L11.691,13.710 L14.596,16.996 Z"/></svg> <span>Google Play</span></a>
+		        						<a class="btn store-btn" data-wow-duration=".65s" data-wow-delay=".6s"  href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21px" height="24px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M18.423,9.825 C17.802,10.691 17.490,11.644 17.490,12.687 C17.490,13.828 17.820,14.856 18.481,15.769 C19.141,16.681 19.897,17.262 20.749,17.510 C20.376,18.662 19.787,19.814 18.983,20.967 C17.749,22.773 16.519,23.675 15.294,23.675 C14.825,23.675 14.155,23.527 13.284,23.233 C12.461,22.938 11.738,22.792 11.116,22.792 C10.532,22.792 9.853,22.943 9.077,23.248 C8.302,23.561 7.671,23.716 7.182,23.716 C5.728,23.716 4.287,22.524 2.861,20.138 C1.454,17.732 0.751,15.414 0.751,13.184 C0.751,11.082 1.292,9.360 2.373,8.014 C3.445,6.687 4.804,6.023 6.450,6.023 C7.139,6.023 7.986,6.162 8.991,6.438 C9.987,6.715 10.647,6.854 10.973,6.854 C11.403,6.854 12.088,6.696 13.026,6.384 C14.002,6.071 14.830,5.913 15.509,5.913 C16.648,5.913 17.667,6.213 18.567,6.811 C19.065,7.143 19.562,7.605 20.060,8.194 C19.304,8.812 18.759,9.355 18.423,9.825 ZM13.600,5.084 C13.083,5.581 12.566,5.913 12.049,6.080 C11.695,6.181 11.197,6.259 10.556,6.314 C10.585,4.940 10.958,3.757 11.676,2.761 C12.384,1.776 13.581,1.093 15.265,0.715 C15.275,0.743 15.287,0.794 15.301,0.867 C15.315,0.941 15.327,0.992 15.337,1.020 C15.337,1.057 15.339,1.102 15.344,1.157 C15.349,1.213 15.351,1.259 15.351,1.297 C15.351,1.858 15.212,2.486 14.935,3.175 C14.648,3.867 14.203,4.503 13.600,5.084 Z"/></svg> <span>App Store</span></a>
+		        					</div>
+		        				</div>
+		        			</div>
+		        			<div class="col-lg-6 col-md-4 offset-lg-0 offset-md-1">
+		        				<div class="img-wrapper img-right banner-img">
+		        					<div class="h2-img-shadow">
+		        						<img src="assets/images/h4-b-mobile.png" alt="">
+		        					</div>
+		        				</div>
+		        			</div>
+		        		</div>
+		        	</div>
+		        </div>
+		    </div>
+		</div>
+		<div id="particles"></div>
+	</section><!-- banner -->
+	<section class="h4-about s-padding s-pb-large">
+		<div class="angle-shape">
+			<svg height='250'>
+			   <rect width="100%" height='250'></rect>
+			</svg>
+		</div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-5">
+					<div class="img-wrapper img-center h4-about-img-wrapper">
+						<img src="assets/images/about-img5.png" class="about-img1 wow slideInLeft"  alt="">
+					</div>
+				</div>
+				<div class="col-lg-5 offset-lg-2">
+					<div class="about-content">
+						<h2>Dedicate yourself to the things that really matter</h2>
+						<p>Nec lacinia. Quod dicta donec perspiciatis rutrum saepe egestas, porro repellat curabitur, blandit rerum nostrud id conubia phasellus officiis penatibus ac fringilla delectus eu cum platea aspernatur taciti, maecenas natoque reiciendis aenean, viverra unde irure, eum eget voluptate, enim lorem.!</p>
+						<div class="btn-wrapper">
+							<a href="#" class="btn fill-style">READ MORE</a>
+							<a href="#" class="btn">DOWNLOAD</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="floating-shapes">
+			<span data-parallax='{"x": 150, "y": -20, "rotateZ":500}'><img src="assets/images/fl-shape-1.png" alt=""></span>
+			<span data-parallax='{"x": 250, "y": 150, "rotateZ":500}'><img src="assets/images/fl-shape-2.png" alt=""></span>
+			<span data-parallax='{"x": -180, "y": 80, "rotateY":2000}'><img src="assets/images/fl-shape-3.png" alt=""></span>
+			<span data-parallax='{"x": -20, "y": 180}'><img src="assets/images/fl-shape-4.png" alt=""></span>
+			<span data-parallax='{"x": 300, "y": 70}'><img src="assets/images/fl-shape-5.png" alt=""></span>
+			<span data-parallax='{"x": 250, "y": 180, "rotateZ":1500}'><img src="assets/images/fl-shape-6.png" alt=""></span>
+			<span data-parallax='{"x": 180, "y": 10, "rotateZ":2000}'><img src="assets/images/fl-shape-7.png" alt=""></span>
+			<span data-parallax='{"x": 250, "y": -30, "rotateX":2000}'><img src="assets/images/fl-shape-8.png" alt=""></span>
+			<span data-parallax='{"x": 60, "y": -100}'><img src="assets/images/fl-shape-9.png" alt=""></span>
+			<span data-parallax='{"x": -30, "y": 150, "rotateZ":1500}'><img src="assets/images/fl-shape-10.png" alt=""></span>
+		</div>
+	</section><!-- about -->
+	<section class="h4-awesome-feature bg-color s-padding  s-pb-large" id="feature">
+		<div class="angle-shape sec-color">
+			<svg height='250'>
+			   <rect width="100%" height='250'></rect>
+			</svg>
+		</div>
+		<div class="container">
+			<div class="s-title">
+				<h2 class="wow">We offer Your Needs</h2>
+				<p>Ut totam hymenaeos a quasi enim, duis erat mollitia, pellentesque ac metus!</p>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-lg-3 col-md-6">
+					<div class="icon-box awf-item wow slideInUp">
+						<div class="icon-box-icon">
+							<i class="icon_chat_alt"></i>
+						</div>
+						<div class="icon-box-details">
+							<h3 class="icon-box-title">Full Free Chat</h3>
+							<p>Magna exercitation! Dolor accumsan sapiente, curabitur voluptate minim<br> quidem placeat.</p>
+						</div>
+					</div>
+					<div class="icon-box awf-item mb-md-0 wow slideInUp" data-wow-delay=".1s">
+						<div class="icon-box-icon">
+							<i class="icon_headphones"></i>
+						</div>
+						<div class="icon-box-details">
+							<h3 class="icon-box-title">Excellent Support</h3>
+							<p>Magna exercitation! Dolor accumsan sapiente, curabitur voluptate minim<br> quidem placeat.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 offset-lg-1 col-md-6">
+					<div class="icon-box awf-item wow slideInUp">
+						<div class="icon-box-icon">
+							<i class="icon_drawer_alt"></i>
+						</div>
+						<div class="icon-box-details">
+							<h3 class="icon-box-title">Retina Ready</h3>
+							<p>Magna exercitation! Dolor accumsan sapiente, curabitur voluptate minim<br> quidem placeat.</p>
+						</div>
+					</div>
+					<div class="icon-box awf-item mb-0 wow slideInUp" data-wow-delay=".1s">
+						<div class="icon-box-icon">
+							<i class="icon_ribbon_alt"></i>
+						</div>
+						<div class="icon-box-details">
+							<h3 class="icon-box-title">Premium Quality</h3>
+							<p>Magna exercitation! Dolor accumsan sapiente, curabitur voluptate minim<br> quidem placeat.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 offset-lg-1">
+					<div class="img-wrapper img-center wow slideInUp mb-5 mb-lg-0">
+						<img src="assets/images/feature-m2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- awesome-feature -->
+	<section class="h4-app-screenshot s-padding pb-0" id="screenshot">
+		<div class="angle-shape">
+			<svg height='250'>
+			   <rect width="100%" height='250'></rect>
+			</svg>
+		</div>
+		<div class="container">
+			<div class="s-title">
+				<h2>App Screenshots</h2>
+				<p>Ut totam hymenaeos a quasi enim, duis erat mollitia, pellentesque ac metus!</p>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<div class="swiper-container app-screenshot-slider-2">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide">
+					        	<div class="app-screenshot-item style-2">
+					        		<img src="assets/images/screenshot11.jpg" alt="">
+					        	</div>
+					        </div>
+					        <div class="swiper-slide">
+					        	<div class="app-screenshot-item style-2">
+					        		<img src="assets/images/screenshot6.jpg" alt="">
+					        	</div>
+					        </div>
+					        <div class="swiper-slide">
+					        	<div class="app-screenshot-item style-2">
+					        		<img src="assets/images/screenshot7.jpg" alt="">
+					        	</div>
+					        </div>
+					        <div class="swiper-slide">
+					        	<div class="app-screenshot-item style-2">
+					        		<img src="assets/images/screenshot8.jpg" alt="">
+					        	</div>
+					        </div>
+					        <div class="swiper-slide">
+					        	<div class="app-screenshot-item style-2">
+					        		<img src="assets/images/screenshot9.jpg" alt="">
+					        	</div>
+					        </div>
+					    </div>
+					    <div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- app-screenshot -->
+	<section class="video">
+		<div class="video-sec size-large bg-img bg-2 jarallax">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="video-play-content">
+							<div class="video-play-btn">
+								<a href="https://player.vimeo.com/video/62742116" data-rel="lightbox-popup"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="20px">
+								<path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M-0.001,1.104 C-0.001,2.027 -0.001,18.234 -0.001,18.872 C-0.001,19.698 0.872,20.312 1.734,19.829 C2.425,19.442 13.233,11.631 14.411,10.962 C15.185,10.523 15.172,9.478 14.411,9.038 C13.563,8.548 2.702,0.697 1.699,0.152 C0.964,-0.247 -0.001,0.194 -0.001,1.104 Z"/></svg>
+								</a>
+							</div>
+							<h2 class="title">WATCH THE VIDEO</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- video -->
+		<div class="angle-shape">
+			<svg height='250'>
+			   <rect width="100%" height='250'></rect>
+			</svg>
+		</div>
+	</section>
+	<section class="faq-sec s-padding bg-color  s-pb-large" id="faq">
+		<div class="angle-shape sec-color">
+			<svg height='250'>
+			   <rect width="100%" height='250'></rect>
+			</svg>
+		</div>
+		<div class="s-title">
+			<h2>Frequently Asked</h2>
+			<p>Ut totam hymenaeos a quasi enim, duis erat mollitia, pellentesque ac metus!</p>
+		</div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-5">
+					<div class="faq-sec-img">
+						<img class="wow slideInLeft" src="assets/images/faq-img1.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-6 offset-lg-1">
+					<div class="accordion" id="iconicAccordion">
+					  	<div class="card accordion-item">
+					   		<div class="accordion-header" id="accordionHeading1">
+						      	<h5 class="mb-0">
+						        	<button class="accordion-btn" type="button" data-toggle="collapse" data-target="#accordionItem1" aria-expanded="true" aria-controls="accordionItem1">
+						        		<span class="accordion-icon"><i class="icon-settings"></i></span>
+						        		<span class="accordion-title">This is a simple question?</span>
+						        		<span class="accordion-arrow"><i class="arrow_carrot-down"></i></span>
+						        	</button>
+						      	</h5>
+					    	</div>
 
-<body>
+					    	<div id="accordionItem1" class="collapse show" aria-labelledby="accordionHeading1" data-parent="#iconicAccordion">
+					      		<div class="card-body accordion-body">
+					        		Think tank bandwidth academic; effective then activate circular paradigm deep dive. Contextualize support inclusion, entrepreneur ideate; mass incarceration social return on investment collective.!
+					      		</div>
+					    	</div>
+					  	</div>
+					  	<div class="card accordion-item">
+					    	<div class="accordion-header" id="accordionHeading2">
+					      		<h5 class="mb-0">
+					        		<button class="accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#accordionItem2" aria-expanded="false" aria-controls="accordionItem2">
+					          			<span class="accordion-icon"><i class="icon-support"></i></span>
+						        		<span class="accordion-title">Is there 24/7 customer support?</span>
+						        		<span class="accordion-arrow"><i class="arrow_carrot-down"></i></span>
+					        		</button>
+					      		</h5>
+					    	</div>
+					    	<div id="accordionItem2" class="collapse" aria-labelledby="accordionHeading2" data-parent="#iconicAccordion">
+					      		<div class="card-body accordion-body">
+					        		Think tank bandwidth academic; effective then activate circular paradigm deep dive. Contextualize support inclusion, entrepreneur ideate; mass incarceration social return on investment collective.!
+					      		</div>
+					    	</div>
+					  	</div>
+					  	<div class="card accordion-item">
+					    	<div class="accordion-header" id="accordionHeading3">
+					      		<h5 class="mb-0">
+					        		<button class="accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#accordionItem3" aria-expanded="false" aria-controls="accordionItem3">
+					          			<span class="accordion-icon"><i class="icon-rocket"></i></span>
+						        		<span class="accordion-title">Ea commodo Consequat?</span>
+						        		<span class="accordion-arrow"><i class="arrow_carrot-down"></i></span>
+					        		</button>
+					      		</h5>
+					    	</div>
+					    	<div id="accordionItem3" class="collapse" aria-labelledby="accordionHeading3" data-parent="#iconicAccordion">
+					      		<div class="card-body accordion-body">
+					        		Think tank bandwidth academic; effective then activate circular paradigm deep dive. Contextualize support inclusion, entrepreneur ideate; mass incarceration social return on investment collective.!
+					      		</div>
+					    	</div>
+					  	</div>
+					  	<div class="card accordion-item">
+					    	<div class="accordion-header" id="accordionHeading4">
+					      		<h5 class="mb-0">
+					        		<button class="accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#accordionItem4" aria-expanded="false" aria-controls="accordionItem4">
+					          			<span class="accordion-icon"><i class="icon-diamond"></i></span>
+						        		<span class="accordion-title">Amet Consequateta Adipisicing?</span>
+						        		<span class="accordion-arrow"><i class="arrow_carrot-down"></i></span>
+					        		</button>
+					      		</h5>
+					    	</div>
+					    	<div id="accordionItem4" class="collapse" aria-labelledby="accordionHeading4" data-parent="#iconicAccordion">
+					      		<div class="card-body accordion-body">
+					        		Think tank bandwidth academic; effective then activate circular paradigm deep dive. Contextualize support inclusion, entrepreneur ideate; mass incarceration social return on investment collective.!
+					      		</div>
+					    	</div>
+					  	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="h4-pricing s-padding  s-pb-large" id="pricing">
+		<div class="angle-shape">
+			<svg height='250'>
+			   <rect width="100%" height='250'></rect>
+			</svg>
+		</div>
+		<div class="container">
+			<div class="s-title">
+				<h2>Do More with Incubator</h2>
+				<p>Ut totam hymenaeos a quasi enim, duis erat mollitia, pellentesque ac metus!</p>
+			</div>
+			<div class="row no-gutters align-items-center">
+				<div class="col-lg-4">
+					<div class="pricing-table style-2 wow slideInRight">
+						<div class="pricing-head">
+							<h2 class="title">Starter</h2>
+							<span class="sub-title">Basic Solution</span>
+						</div>
+						<div class="pricing-price">
+							<span class="price-tag">
+								<span class="price-currency">$</span>25
+							</span>
+							<span class="price-period">/month</span>
+						</div>
+						<div class="pricing-body">
+							<ul>
+								<li><i class="icon_check"></i> Push Notifications</li>
+								<li><i class="icon_check"></i> Offline Synchronization</li>
+								<li><i class="icon_close"></i> SQL Database</li>
+								<li><i class="icon_close"></i> Data Transfer</li>
+								<li><i class="icon_close"></i> Speech & Text Analytics</li>
+								<li><i class="icon_check"></i> 24/7 Support</li>
+							</ul>
+						</div>
+						<div class="pricing-footer">
+							<a href="#">CHOOSE THIS</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="pricing-table style-2 featured">
+						<div class="pricing-badge">
+							<span class="badge-name">POPULAR</span>
+						</div>
+						<div class="pricing-head">
+							<h2 class="title">Professional</h2>
+							<span class="sub-title">Advance Platform</span>
+						</div>
+						<div class="pricing-price">
+							<span class="price-tag">
+								<span class="price-currency">$</span>50
+							</span>
+							<span class="price-period">/month</span>
+						</div>
+						<div class="pricing-body">
+							<ul>
+								<li><i class="icon_check"></i> Push Notifications</li>
+								<li><i class="icon_check"></i> Offline Synchronization</li>
+								<li><i class="icon_close"></i> SQL Database</li>
+								<li><i class="icon_close"></i> Data Transfer</li>
+								<li><i class="icon_check"></i> Speech & Text Analytics</li>
+								<li><i class="icon_check"></i> 24/7 Support</li>
+							</ul>
+						</div>
+						<div class="pricing-footer">
+							<a href="#">CHOOSE THIS</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="pricing-table style-2 wow slideInLeft">
+						<div class="pricing-head">
+							<h2 class="title">Business</h2>
+							<span class="sub-title">Customizable Platform</span>
+						</div>
+						<div class="pricing-price">
+							<span class="price-tag">
+								<span class="price-currency">$</span>99
+							</span>
+							<span class="price-period">/month</span>
+						</div>
+						<div class="pricing-body">
+							<ul>
+								<li><i class="icon_check"></i> Push Notifications</li>
+								<li><i class="icon_check"></i> Offline Synchronization</li>
+								<li><i class="icon_check"></i> SQL Database</li>
+								<li><i class="icon_check"></i> Data Transfer</li>
+								<li><i class="icon_check"></i> Speech & Text Analytics</li>
+								<li><i class="icon_check"></i> 24/7 Support</li>
+							</ul>
+						</div>
+						<div class="pricing-footer">
+							<a href="#">CHOOSE THIS</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- pricing -->
+	<section class="h4-testimonial s-padding bg-color">
+		<div class="angle-shape sec-color">
+			<svg height='250'>
+			   <rect width="100%" height='250'></rect>
+			</svg>
+		</div>
+		<div class="container">
+			<div class="s-title">
+				<h2>What Customer Says</h2>
+				<p>Ut totam hymenaeos a quasi enim, duis erat mollitia, pellentesque ac metus!</p>
+			</div>
+			<div class="row testimonial-slider-row">
+				<div class="col-12">
+					<div class="testimonial-slider-wrapper">
+						<div class="swiper-container testimonial-slider">
+						    <div class="swiper-wrapper">
+						        <div class="swiper-slide">
+						        	<div class="testimonial-item style-3">
+						        		<div class="testimonial-content">Doloremque, ipsa recusandae velit rutrum omnis 		minima ipsam, habitant optio non justo, tellus occaecati, totam eleifend congue 	lacinia, tincidunt natus! Hic, pharetra. Litora cursus, numquam dignissimos 		irure officiis.?
+						        			<span class="quote-mark">,,</span>
+						        		</div>
+						        		<div class="testimonial-meta">
+						        			<div class="author-img">
+						        				<img src="assets/images/author2.jpg" alt="">
+						        			</div>
+						        			<div class="t-meta-info">
+						        				<h4 class="reviewer-name">Jason Response</h4>
+							        			<div class="rating-star">
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<span>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star-half_alt"></i>
+													</span>
+												</div>
+						        			</div>
+						        		</div>
+						        	</div>
+						        </div>
+						        <div class="swiper-slide">
+						        	<div class="testimonial-item style-3">
+						        		<div class="testimonial-content">Doloremque, ipsa recusandae velit rutrum omnis 		minima ipsam, habitant optio non justo, tellus occaecati, totam eleifend congue 	lacinia, tincidunt natus! Hic, pharetra. Litora cursus, numquam dignissimos 		irure officiis.?
+						        			<span class="quote-mark">,,</span>
+						        		</div>
+						        		<div class="testimonial-meta">
+						        			<div class="author-img">
+						        				<img src="assets/images/author.jpg" alt="">
+						        			</div>
+						        			<div class="t-meta-info">
+						        				<h4 class="reviewer-name">Nathaneal Down</h4>
+							        			<div class="rating-star">
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<span>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star-half_alt"></i>
+													</span>
+												</div>
+						        			</div>
+						        		</div>
+						        	</div>
+						        </div>
+						        <div class="swiper-slide">
+						        	<div class="testimonial-item style-3">
+						        		<div class="testimonial-content">Doloremque, ipsa recusandae velit rutrum omnis 		minima ipsam, habitant optio non justo, tellus occaecati, totam eleifend congue 	lacinia, tincidunt natus! Hic, pharetra. Litora cursus, numquam dignissimos 		irure officiis.?
+						        			<span class="quote-mark">,,</span>
+						        		</div>
+						        		<div class="testimonial-meta">
+						        			<div class="author-img">
+						        				<img src="assets/images/author3.jpg" alt="">
+						        			</div>
+						        			<div class="t-meta-info">
+						        				<h4 class="reviewer-name">Phillip Anthropy</h4>
+							        			<div class="rating-star">
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<span>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star-half_alt"></i>
+													</span>
+												</div>
+						        			</div>
+						        		</div>
+						        	</div>
+						        </div>
+						        <div class="swiper-slide">
+						        	<div class="testimonial-item style-3">
+						        		<div class="testimonial-content">Doloremque, ipsa recusandae velit rutrum omnis 		minima ipsam, habitant optio non justo, tellus occaecati, totam eleifend congue 	lacinia, tincidunt natus! Hic, pharetra. Litora cursus, numquam dignissimos 		irure officiis.?
+						        			<span class="quote-mark">,,</span>
+						        		</div>
+						        		<div class="testimonial-meta">
+						        			<div class="author-img">
+						        				<img src="assets/images/author.jpg" alt="">
+						        			</div>
+						        			<div class="t-meta-info">
+						        				<h4 class="reviewer-name">Jason Response</h4>
+							        			<div class="rating-star">
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<i class=" icon_star_alt"></i>
+													<span>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star"></i>
+														<i class="icon_star-half_alt"></i>
+													</span>
+												</div>
+						        			</div>
+						        		</div>
+						        	</div>
+						        </div>
+						    </div>
+						</div>
+					</div>
 
-    <!--  preloader start -->
-    <div id="tb-preloader">
-        <div class="tb-preloader-wave"></div>
-    </div>
-    <!-- preloader end -->
+					<div class="testimonial-btn-next"><i class="arrow_right"></i></div>
+					<div class="testimonial-btn-prev"><i class="arrow_left"></i></div>
+				</div>
+			</div>
+		</div>
+	</section><!-- testimonial -->
+	<section class="bg-img bg-3 h4-get-the-app" id="download">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 pt-5">
+					<div class="get-the-app-content">
+						<h2>Download this Apps Now</h2>
+						<p>Changemaker justice collaborative cities disrupt academic human-centered transparent compassion. Inclusion revolutionary disrupt social entrepreneur collaborative consumption.</p>
+						<div class="apps-store-btn-wrpper">
+							<a href="#" class="app-store-btn">
+								<img src="assets/images/play-store-btn.png" alt="">
+								<img src="assets/images/play-store-btn-alt.png" alt="">
+							</a>
+							<a href="#" class="app-store-btn">
+								<img src="assets/images/app-store-btn.png" alt="">
+								<img src="assets/images/app-store-btn-alt.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 d-none d-lg-block">
+					<div class="img-wrapper img-right h4-get-the-app-img">
+						<img class="wow slideInUp" src="assets/images/h4-down.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- get-the-app -->
+	<section class="h4-contact s-padding bg-color" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<div class="iconic-contact-info">
+						<div class="contact-info-head">
+							<h2>Contact Information</h2>
+							<p>But radical social entrepreneurship revolutionary strategy catalyze mobilize. NGO, peaceful social intrapreneurship systems thinking gender rights overcome injustice!</p>
+						</div>
+						<ul class="f-contact-list">
+							<li><span>Address:</span> 07rd Avenue, Upper East Side, New Yourk</li>
+							<li><span>Office:</span> 86 Upper East Side, USA</li>
+							<li><span>Call Us:</span> +963 245 869 879 66</li>
+							<li><span>Email Us:</span> iconic@support.com</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 offset-lg-1">
+					<form class="contact-form" method="POST" name="contactform" action="contact-form.php">
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<input type="text" class="form-control" placeholder="Name" name="name">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="email" class="form-control" placeholder="Email" name="email">
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Subject" name="subject">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="5" placeholder="Message" name="message"></textarea>
+						</div>
+						<div class="text-lg-right">
+							<button type="submit" class="btn fill-style">SEND MESSAGE</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section><!-- contact -->
+
+	<footer class="footer style-3 ">
+		<div class="overlay bg-img"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="f-logo img-wrapper img-center">
+						<img src="assets/images/logo-3.png" alt="">
+					</div>
+					<div class="f-newsletter">
+						<div class="input-group">
+					      	<input type="email" class="form-control" placeholder="Email address">
+					      	<span class="input-group-btn">
+					        	<button type="button"><i class="fa fa-paper-plane-o"></i></button>
+					      	</span>
+					    </div>
+					</div>
+					<div class="f-social-area">
+						<ul class="f-contact-list">
+							<li>
+								<span>Follow Us:</span>
+								<ul class="social-profile style-wb">
+									<li><a href="#"><i class="social_facebook"></i></a></li>
+									<li><a href="#"><i class="social_twitter"></i></a></li>
+									<li><a href="#"><i class="social_vimeo"></i></a></li>
+									<li><a href="#"><i class="social_linkedin"></i></a></li>
+									<li><a href="#"><i class="social_dribbble"></i></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="copyright-area">
+						<p class="copyright">© 2018 <a href="#">Appbiz</a> ALL RIGHTS RESERVED</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer><!-- footer -->
+
+	<div class="scroll-top"><i class="arrow_carrot-up"></i></div>
+
+	<div class="main-search-area">
+			<form class="main-search-form full-view">
+			<div class="m-s-input">
+				<input type="search" name="search" class="search-input" placeholder="Search..." autocomplete="off">
+			</div>
+			<span>Type and Hit Enter to Search</span>
+		</form>
+		<i class="icon_close"></i>
+	</div>
 
 
-    <div class="wrapper">
-
-        <!--hero section-->
-        <div id="fullscreen-banner" class="full-banner vertical-align banner-app">
-            <div class="container-mid">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="banner-title">
-                                <h1 class="text-uppercase light-txt m-bot-10 inline-block">think different</h1>
-
-                                <h3 class="text-uppercase light-txt m-bot-30 inline-block">present your mobile app </h3>
-
-                                <div class="m-top-100 inline-block">
-                                    <a href="#" class="btn btn-medium btn-theme-border-color wow fadeInLeft"> downlaod
-                                        now <i class="fa fa-download"></i></a>
-                                    <a href="#" class="btn btn-medium btn-theme-border-color wow fadeInRight"> see the
-                                        gallery <i class="fa fa-th-large"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="app-device">
-                <img class="wow fadeInUp" src="assets/img/app/banner_device.png" alt="" />
-            </div>
-        </div>
-        <!--hero section-->
-
-        <!--body content start-->
-        <section class="body-content">
-
-            <!--feature-->
-            <div class="page-content ">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-md-6 ">
-                            <div class="heading-title">
-                                <h3 class="text-uppercase">
-                                    All in one app
-                                </h3>
-                                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>
-                            </div>
-
-                            <div class="featured-item feature-outline m-bot-80">
-                                <div class="icon">
-                                    <i class=" icon-pictures"></i>
-                                </div>
-                                <div class="title text-uppercase">
-                                    <h4>image parallax</h4>
-                                </div>
-                                <div class="desc">
-                                    Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi.
-                                </div>
-                            </div>
-                            <div class="featured-item feature-outline ">
-                                <div class="icon ">
-                                    <i class=" icon-video"></i>
-                                </div>
-                                <div class="title text-uppercase">
-                                    <h4>video parallax</h4>
-                                </div>
-                                <div class="desc">
-                                    Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. sed nisi eleifend.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="responsive-img  ">
-                                <img src="assets/img/app/appimg3.png" alt="" />
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!--feature-->
-            <hr/>
-            <!--feature-->
-            <div class="page-content ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="responsive-img  ">
-                                <img src="assets/img/app/appimg4.png" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 ">
-                            <div class="heading-title-alt m-top-50 inline-block">
-                                <h3 class="text-uppercase">
-                                    unlimited possibilities with lots
-                                    of new feature
-                                </h3>
-                            </div>
-                            <div class="">
-                                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                    doloremque laudantium, totam rem aperiam.</p>
-
-                                <ul class="m-bot-30 circle-list">
-                                    <li>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    </li>
-                                    <li>
-                                        Adipisci blanditiis delectus deserunt dolorem
-                                    </li>
-                                    <li>
-                                        Impedit inventore itaque iure libero maiores simso.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!--feature-->
-            <hr/>
-
-            <!--contact-->
-            <div class="page-content">
-
-                <div class="container">
-
-                    <div class="heading-title text-center ">
-                        <h3 class="text-uppercase">drop us a line</h3>
-                        <div class="half-txt p-top-30">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus. Nam libero tempore</div>
-                    </div>
-
-
-                    <div class="row">
-
-                        <div class="col-md-10 col-md-offset-1">
-                            <form method="post" action="#" id="form" role="form" class="contact-comments">
-
-                                <div class="row">
-
-                                    <div class="col-md-6 ">
-
-                                        <div class="form-group">
-                                            <!-- Name -->
-                                            <input type="text" name="name" id="name" class=" form-control" placeholder="Name *" maxlength="100" required="">
-                                        </div>
-                                        <div class="form-group">
-                                            <!-- Email -->
-                                            <input type="email" name="email" id="email" class=" form-control" placeholder="Email *" maxlength="100" required="">
-                                        </div>
-                                        <div class="form-group">
-                                            <!-- phone -->
-                                            <input type="text" name="phone" id="phone" class=" form-control" placeholder="Phone" maxlength="100">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6 form-group">
-                                        <div class="form-group">
-                                            <!-- Comment -->
-                                            <textarea name="text" id="text" class="cmnt-text form-control" placeholder="Comment" maxlength="400"></textarea>
-                                        </div>
-                                        <div class="form-group full-width">
-                                            <button type="submit" class="btn btn-small btn-dark-solid ">
-                                                Send Message
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!--contact-->
-
-
-        </section>
-        <!--body content end-->
-
-        <!--footer -->
-        <footer id="footer" class="dark footer-4">
-            <div class="container">
-
-                <div class="f-logo-center">
-                    <a href="index.html" class="footer-logo">
-                        <img class="retina" src="assets/img/footer-logo.png" alt="">
-                    </a>
-                </div>
-                <div class="col-md-6">
-                    <div class="copyright">
-                        © MASSIVE 2014.
-                    </div>
-                    <div class="copyright-sub-title text-uppercase">
-                        Building your site with lots of fun
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="social-link pull-right circle ">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                        <a href="#"><i class="fa fa-behance"></i></a>
-                    </div>
-                </div>
-
-
-            </div>
-        </footer>
-        <!--footer-->
-
-    </div>
-
-
-    <script src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyBvoxNVNChCmTJqmmLFKEu_QyakDi5wOds"></script>
-     <!-- inject:js -->
-    <script src="assets/vendor/modernizr/modernizr.js"></script>
-    <script src="assets/vendor/jquery/jquery-1.10.2.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendor/bootstrap-validator/validator.min.js"></script>
-    <script src="assets/vendor/breakpoint/breakpoint.js"></script>
-    <script src="assets/vendor/count-to/jquery.countTo.js"></script>
-    <script src="assets/vendor/countdown/jquery.countdown.js"></script>
-    <script src="assets/vendor/easing/jquery.easing.1.3.js"></script>
-    <script src="assets/vendor/easy-pie-chart/jquery.easypiechart.min.js"></script>
-    <script src="assets/vendor/elasic-slider/jquery.eislideshow.js"></script>
-    <script src="assets/vendor/flex-slider/jquery.flexslider-min.js"></script>
-    <script src="assets/vendor/gmap/jquery.gmap.min.js"></script>
-    <script src="assets/vendor/images-loaded/imagesloaded.js"></script>
-    <script src="assets/vendor/isotope/jquery.isotope.js"></script>
-    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendor/mailchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendor/menuzord/menuzord.js"></script>
-    <script src="assets/vendor/nav/jquery.nav.js"></script>
-    <script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/parallax-js/parallax.min.js"></script>
-    <script src="assets/vendor/smooth/smooth.js"></script>
-    <script src="assets/vendor/sticky/jquery.sticky.min.js"></script>
-    <script src="assets/vendor/touchspin/touchspin.js"></script>
-    <script src="assets/vendor/typist/typist.js"></script>
-    <script src="assets/vendor/visible/visible.js"></script>
-    <script src="assets/vendor/wow/wow.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
-    <!-- endinject -->
+	<script src="assets/js/jquery-2.2.3.min.js"></script>
+	<script src="assets/js/jquery.easing.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<script src="assets/js/jquery.events.touch.min.js"></script>
+	<script src="assets/js/lightcase.js"></script>
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/TweenMax.min.js"></script>
+	<script src="assets/js/jquery.wavify.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/jquery.parallax-scroll.js"></script>
+	<script src="assets/js/particles.min.js"></script>
+	<script src="assets/js/jarallax.min.js"></script>
+	<script src="assets/js/jarallax-video.min.js"></script>
+	<script src="assets/js/form-validator.js"></script>
+	<script src="assets/js/custom.js"></script>
 </body>
-
 </html>
