@@ -18,8 +18,9 @@
 </head>
 <body data-spy="scroll" data-target=".navbar">
 
-	<?php include('header.php'); ?>
-	<?php include('banner.php'); ?>
+	<?php include('0-header.php'); ?>
+	<?php include('1-banner.php'); ?>
+	<?php include('8-contact.php'); ?>
 
 	<div class="scroll-top"><i class="arrow_carrot-up"></i></div>
 
@@ -41,5 +42,6 @@
 	<script src="assets/js/jarallax-video.min.js"></script>
 	<script src="assets/js/form-validator.js"></script>
 	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/google-form.js"></script>
 </body>
 </html>
