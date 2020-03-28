@@ -1,8 +1,8 @@
 /*-------------------------------------------------------------------------------------
 
-	Theme Name:      Appbiz
-    Theme URI:       http://iconictheme.com/appbiz/intro/
-    Author:          The_Iconic
+	Theme Name:      Appbiz  
+    Theme URI:       http://iconictheme.com/appbiz/intro/ 
+    Author:          The_Iconic     
     Author URI:      http://iconictheme.com
     Version:         1.7.0
 
@@ -450,7 +450,7 @@ p{
 	display: block;
 	color: #8b9aa8;
 	font-size: 12px;
-	margin: 0.5em 0.95em 0.5em 0;
+	margin: 0.5em 0.95em 0.5em 0; 
 	-webkit-transition: .15s cubic-bezier(0.43, 0.49, 0.51, 0.68);
 	transition: .15s cubic-bezier(0.43, 0.49, 0.51, 0.68);
 }
@@ -574,7 +574,7 @@ p{
 		margin-right: -30px;
 	}
 
-	.gutter-60>.col,
+	.gutter-60>.col, 
 	.gutter-60>[class*=col-]{
 		padding-left: 30px;
 		padding-right: 30px;
@@ -585,7 +585,7 @@ p{
 		margin-right: -20px;
 	}
 
-	.gutter-40>.col,
+	.gutter-40>.col, 
 	.gutter-40>[class*=col-]{
 		padding-left: 20px;
 		padding-right: 20px;
@@ -869,7 +869,7 @@ p{
 
 .navbar.sticky-nav .navbar-brand img.color-logo,
 .navbar.sticky-nav img.white-logo{
-	display: block;  
+	display: block;
 }
 
 .navbar-nav>li.dropdown{
@@ -2276,7 +2276,7 @@ section.about{
 }
 
 @media (min-width: 1450px){
-
+	
 	.testimonial-btn-next{
 		right: -75px;
 	}
@@ -2364,7 +2364,7 @@ section.about{
 	font-size: 100px;
 	margin-bottom: -60px;
 	-webkit-transform: rotate(180deg);
-    transform: rotateX(180deg);
+    transform: rotateX(180deg);	
 }
 
 .testimonial-item.style-4 .testimonial-meta,
@@ -2628,7 +2628,7 @@ section.about{
 	color: #252a32;
 	font-weight: 500;
 	border: 0;
-	padding: 1em .5em;
+	padding: 1em .5em; 
 	position: relative;
 	display: block;
 	-webkit-transition: .15s cubic-bezier(0.43, 0.49, 0.51, 0.68);
@@ -2925,7 +2925,7 @@ section.about{
 }
 
 .pricing-table.style-2{
-	text-align: left;
+	text-align: left;	
 }
 
 .pricing-table.style-2:hover{
@@ -2953,7 +2953,7 @@ section.about{
 	/*background: -moz-linear-gradient(-90deg, #28c77f 0%, #7658f7 100%);
 	background: -webkit-linear-gradient(-90deg, #28c77f 0%, #7658f7 100%);
 	background: -ms-linear-gradient(-90deg, #28c77f 0%, #7658f7 100%);
-	background: linear-gradient(-90deg, #28c77f 0%, #7658f7 100%);*/
+	background: linear-gradient(-90deg, #28c77f 0%, #7658f7 100%);*/    
 }
 
 .get-the-app-content{
@@ -3208,7 +3208,7 @@ section.about{
 	position: relative;
 	z-index: 0;
 	background: -webkit-linear-gradient( 90deg, rgb(26,41,128) 0%, rgb(38,208,206) 100%);
-	background: linear-gradient( 90deg, rgb(26,41,128) 0%, rgb(38,208,206) 100%);
+	background: linear-gradient( 90deg, rgb(26,41,128) 0%, rgb(38,208,206) 100%);    
 }
 
 .image___bg {
@@ -3328,7 +3328,7 @@ section.about{
 	margin-bottom: .7em;
 }
 
-.blog-post .post-title,
+.blog-post .post-title, 
 .blog-post .post-title a{
     font-size: 20px;
     font-weight: 600;
@@ -3346,7 +3346,7 @@ section.about{
 	color: #28c77f;
 }
 
-.blog-post .post-meta>span,
+.blog-post .post-meta>span, 
 .blog-post .post-meta a{
     font-size: 14px;
     font-weight: 400;
@@ -3485,7 +3485,7 @@ section.about{
 	margin-bottom: 60px;
 }
 
-.blog-post.style-2 .post-title,
+.blog-post.style-2 .post-title, 
 .blog-post.style-2 .post-title a{
 	color: #1c1d1b;
 	font-weight: 700;
@@ -4107,7 +4107,7 @@ section.about{
 	margin-bottom: 20px;
 	background-image: -moz-linear-gradient( 90deg, rgb(13,197,173) 0%, rgb(50,73,214) 100%);
 	background-image: -webkit-linear-gradient( 90deg, rgb(13,197,173) 0%, rgb(50,73,214) 100%);
-	background-image: linear-gradient( 90deg, rgb(13,197,173) 0%, rgb(50,73,214) 100%);
+	background-image: linear-gradient( 90deg, rgb(13,197,173) 0%, rgb(50,73,214) 100%);	
 }
 
 .accordion-btn{
@@ -4658,7 +4658,7 @@ section.about{
     margin-left: -15px;
 }
 
-.contact-form .form-row>.col,
+.contact-form .form-row>.col, 
 .contact-form .form-row>[class*=col-] {
     padding-right: 15px;
     padding-left: 15px;
@@ -5041,7 +5041,7 @@ footer,
 	font-size: 16px;
 	padding-top: .5em;
 	padding-bottom: .5em;
-	color: #000;
+	color: #000;	
 }
 
 .footer.style-3 .f-newsletter .input-group-btn button{
