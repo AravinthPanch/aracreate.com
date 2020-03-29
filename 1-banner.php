@@ -15,7 +15,7 @@
             </div>
             <div class="col-lg-6 col-md-4 offset-lg-0 offset-md-1">
               <div class="img-wrapper img-right banner-img">
-                <img src="assets/images-this/aracreate-engineering.png" alt="">
+                <img src="assets/images/aracreate/aracreate-engineering.png" alt="">
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@
             </div>
             <div class="col-lg-6 col-md-4 offset-lg-0 offset-md-1">
               <div class="img-wrapper img-right banner-img">
-                <img src="assets/images-this/aracreate-match-make.png" alt="">
+                <img src="assets/images/aracreate/aracreate-match-make.png" alt="">
               </div>
             </div>
           </div>

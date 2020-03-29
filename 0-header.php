@@ -20,8 +20,8 @@
   <nav class="navbar navbar-expand-lg fixed-top" id="main-nav">
     <div class="container">
       <a class="navbar-brand" href="./">
-        <img class="white-logo" src="assets/images-this/aracreate-logo-website-white.png" style="width:60%">
-        <img class="color-logo" src="assets/images-this/aracreate-logo-website-color.png" style="width:60%">
+        <img class="white-logo" src="assets/images/aracreate/aracreate-logo-website-white.png" style="width:60%">
+        <img class="color-logo" src="assets/images/aracreate/aracreate-logo-website-color.png" style="width:60%">
       </a>
       <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#main-nav-collapse" aria-controls="main-nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="menu-toggle">
@@ -42,7 +42,7 @@
             <a class="nav-link nav-link-scroll" href="./">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-scroll" href="#services">Services</a>
+						<a class="nav-link nav-link-scroll" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-scroll" href="#testimonials">Testimonials</a>
@@ -51,7 +51,7 @@
             <a class="nav-link nav-link-scroll" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-scroll" href="#team">Team</a>
+            <a class="nav-link nav-link-scroll" href="#services">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-scroll" href="#contact">contact</a>

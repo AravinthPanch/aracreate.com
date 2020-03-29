@@ -1,41 +1,4 @@
-<section class="h4-about s-padding s-pb-large">
-  <div class="angle-shape">
-    <svg height='250'>
-       <rect width="100%" height='250'></rect>
-    </svg>
-  </div>
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-5">
-        <div class="img-wrapper img-center h4-about-img-wrapper">
-          <img src="assets/images/about-img5.png" class="about-img1 wow slideInLeft"  alt="">
-        </div>
-      </div>
-      <div class="col-lg-5 offset-lg-2">
-        <div class="about-content">
-          <h2>Dedicate yourself to the things that really matter</h2>
-          <p>Nec lacinia. Quod dicta donec perspiciatis rutrum saepe egestas, porro repellat curabitur, blandit rerum nostrud id conubia phasellus officiis penatibus ac fringilla delectus eu cum platea aspernatur taciti, maecenas natoque reiciendis aenean, viverra unde irure, eum eget voluptate, enim lorem.!</p>
-          <div class="btn-wrapper">
-            <a href="#" class="btn fill-style">READ MORE</a>
-            <a href="#" class="btn">DOWNLOAD</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="floating-shapes">
-    <span data-parallax='{"x": 150, "y": -20, "rotateZ":500}'><img src="assets/images/fl-shape-1.png" alt=""></span>
-    <span data-parallax='{"x": 250, "y": 150, "rotateZ":500}'><img src="assets/images/fl-shape-2.png" alt=""></span>
-    <span data-parallax='{"x": -180, "y": 80, "rotateY":2000}'><img src="assets/images/fl-shape-3.png" alt=""></span>
-    <span data-parallax='{"x": -20, "y": 180}'><img src="assets/images/fl-shape-4.png" alt=""></span>
-    <span data-parallax='{"x": 300, "y": 70}'><img src="assets/images/fl-shape-5.png" alt=""></span>
-    <span data-parallax='{"x": 250, "y": 180, "rotateZ":1500}'><img src="assets/images/fl-shape-6.png" alt=""></span>
-    <span data-parallax='{"x": 180, "y": 10, "rotateZ":2000}'><img src="assets/images/fl-shape-7.png" alt=""></span>
-    <span data-parallax='{"x": 250, "y": -30, "rotateX":2000}'><img src="assets/images/fl-shape-8.png" alt=""></span>
-    <span data-parallax='{"x": 60, "y": -100}'><img src="assets/images/fl-shape-9.png" alt=""></span>
-    <span data-parallax='{"x": -30, "y": 150, "rotateZ":1500}'><img src="assets/images/fl-shape-10.png" alt=""></span>
-  </div>
-</section><!-- about -->
+
 <section class="h4-awesome-feature bg-color s-padding  s-pb-large" id="feature">
   <div class="angle-shape sec-color">
     <svg height='250'>

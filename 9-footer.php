@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-12">
         <div class="f-logo img-wrapper img-center">
-          <img src="assets/images-this/aracreate-logo-website-white.png" style="width:30%">
+          <img src="assets/images/aracreate/aracreate-logo-website-white.png" style="width:30%">
         </div>
         <!-- <div class="f-social-area">
           <ul class="f-contact-list">
