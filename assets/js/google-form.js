@@ -23,7 +23,7 @@
     var res = confirm("Thank you for your message. \n\nI'll respond to you as soon as possible. \n\nKind regards, \nAravinth");
     if (res == true)
     {
-      window.location.replace("http://aravinth.info/");
+      window.location.replace("http://aracreate.com");
     }
 
     return false;

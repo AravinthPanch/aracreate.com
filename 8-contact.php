@@ -10,7 +10,7 @@
             <li><span>Name:</span>Aravinth Panch</li>
             <li><span>Company:</span>araCreate UG</li>
             <li><span>Address:</span>Bouchéstr. 12 / Halle 20, 12435 Berlin, Germany</li>
-            <li><span>Email:</span>ask@aracreate.com</li>
+            <li><span>Email:</span>ask@araCreate.com</li>
           </ul>
         </div>
       </div>

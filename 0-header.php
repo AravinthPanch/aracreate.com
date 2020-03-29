@@ -1,7 +1,25 @@
+<head>
+	<meta charset="UTF-8">
+	<title>araCreate</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/lightcase.css">
+	<link rel="stylesheet" href="assets/css/simple-line-icons.css">
+	<link rel="stylesheet" href="assets/css/ElegantIcons.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/home-4-style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
 <header class="header">
   <nav class="navbar navbar-expand-lg fixed-top" id="main-nav">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./">
         <img class="white-logo" src="assets/images-this/aracreate-logo-website-white.png" style="width:60%">
         <img class="color-logo" src="assets/images-this/aracreate-logo-website-color.png" style="width:60%">
       </a>
@@ -21,7 +39,7 @@
       <div class="collapse navbar-collapse order-3 order-lg-2" id="main-nav-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link nav-link-scroll" href="#">Home</a>
+            <a class="nav-link nav-link-scroll" href="./">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-scroll" href="#services">Services</a>
