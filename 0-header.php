@@ -48,10 +48,10 @@
 						<a class="nav-link nav-link-scroll" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-scroll" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link nav-link-scroll" href="#testimonials">Testimonials</a>
+          </li>
+					<li class="nav-item">
+            <a class="nav-link nav-link-scroll" href="#network">Network</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-scroll" href="#contact">contact</a>
