@@ -93,13 +93,18 @@
             <div class="tab-pane fade" id="qa-tab-content2" role="tabpanel" aria-labelledby="qa-tab2">
               <div class="row align-items-center">
                 <div class="col-lg-5 offset-lg-1">
-                  <div class="accordion wow slideInLeft" id="iconicAccordion">
+                  <div class="faq-sec-img">
+                    <img class="wow slideInLeft" src="assets/images/aracreate/aracreate-engineering.png" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                  <div class="accordion wow slideInRight" id="iconicAccordion">
                     <div class="card accordion-item">
                       <div class="accordion-header" id="accordionHeading1">
                         <h5 class="mb-0">
                           <button class="accordion-btn" type="button" data-toggle="collapse" data-target="#accordionItem1" aria-expanded="true" aria-controls="accordionItem1">
                             <span class="accordion-icon"><i class="icon-settings"></i></span>
-                            <span class="accordion-title">StartUp Mentorship</span>
+                            <span class="accordion-title">Prototype to Production</span>
                             <span class="accordion-arrow"><i class="arrow_carrot-down"></i></span>
                           </button>
                         </h5>
@@ -107,8 +112,8 @@
 
                       <div id="accordionItem1" class="collapse show" aria-labelledby="accordionHeading1" data-parent="#iconicAccordion">
                         <div class="card-body accordion-body">
-                          Get connected to investors, accelerators, incubators, talents, manfacturers, research institutions, suppliers, etc
-                        </div>                        
+                          Get your ideas researched, validated, prototyped, designed for manufacturing, certified and manufactured
+                        </div>
                       </div>
                     </div>
                     <div class="card accordion-item">
@@ -156,11 +161,6 @@
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-lg-5 offset-lg-1">
-                  <div class="faq-sec-img">
-                    <img class="wow slideInRight" src="assets/images/aracreate/aracreate-match-make.png" alt="">
                   </div>
                 </div>
 
