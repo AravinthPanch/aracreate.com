@@ -5,6 +5,7 @@
 	<?php include('1-banner.php'); ?>
 	<?php include('2-about.php'); ?>
 	<?php include('3-services.php'); ?>
+	<?php include('4-portfolio.php'); ?>
 	<?php include('8-contact.php'); ?>
 	<?php include('9-footer.php'); ?>
 
