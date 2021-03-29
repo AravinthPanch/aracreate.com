@@ -1,8 +1,4 @@
-<?php
-header('Location: https://aravinth.info'); exit();
-?>
-
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 	<?php include('0-header.php'); ?>
@@ -12,4 +8,4 @@ header('Location: https://aravinth.info'); exit();
 	<?php include('8-contact.php'); ?>
 	<?php include('9-footer.php'); ?>
 
-</html> -->
+</html>
