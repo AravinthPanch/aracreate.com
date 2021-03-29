@@ -18,21 +18,21 @@
       </div>
       <div class="col-lg-6">
         <div class="img-wrapper img-center h4-about-img-wrapper">
-          <img src="assets/images/aracreate/aracreate-aravinth.jpg" class="about-img1 wow slideInLeft" alt="">
+          <img src="assets/images/aracreate/aracreate-aravinth.jpg" class="about-img1 wow slideInLeft" alt="Aravinth Panch | araCreate">
         </div>
       </div>
     </div>
   </div>
   <div class="floating-shapes">
-    <span data-parallax='{"x": 150, "y": -20, "rotateZ":500}'><img src="assets/images/fl-shape-1.png" alt=""></span>
-    <span data-parallax='{"x": 250, "y": 150, "rotateZ":500}'><img src="assets/images/fl-shape-2.png" alt=""></span>
-    <span data-parallax='{"x": -180, "y": 80, "rotateY":2000}'><img src="assets/images/fl-shape-3.png" alt=""></span>
-    <span data-parallax='{"x": -20, "y": 180}'><img src="assets/images/fl-shape-4.png" alt=""></span>
-    <span data-parallax='{"x": 300, "y": 70}'><img src="assets/images/fl-shape-5.png" alt=""></span>
-    <span data-parallax='{"x": 250, "y": 180, "rotateZ":1500}'><img src="assets/images/fl-shape-6.png" alt=""></span>
-    <span data-parallax='{"x": 180, "y": 10, "rotateZ":2000}'><img src="assets/images/fl-shape-7.png" alt=""></span>
-    <span data-parallax='{"x": 250, "y": -30, "rotateX":2000}'><img src="assets/images/fl-shape-8.png" alt=""></span>
-    <span data-parallax='{"x": 60, "y": -100}'><img src="assets/images/fl-shape-9.png" alt=""></span>
-    <span data-parallax='{"x": -30, "y": 150, "rotateZ":1500}'><img src="assets/images/fl-shape-10.png" alt=""></span>
+    <span data-parallax='{"x": 150, "y": -20, "rotateZ":500}'><img src="assets/images/fl-shape-1.png" alt="Aravinth Panch | araCreate"></span>
+    <span data-parallax='{"x": 250, "y": 150, "rotateZ":500}'><img src="assets/images/fl-shape-2.png" alt="Aravinth Panch | araCreate"></span>
+    <span data-parallax='{"x": -180, "y": 80, "rotateY":2000}'><img src="assets/images/fl-shape-3.png" alt="Aravinth Panch | araCreate"></span>
+    <span data-parallax='{"x": -20, "y": 180}'><img src="assets/images/fl-shape-4.png" alt="Aravinth Panch | araCreate"></span>
+    <span data-parallax='{"x": 300, "y": 70}'><img src="assets/images/fl-shape-5.png" alt="Aravinth Panch | araCreate"></span>
+    <span data-parallax='{"x": 250, "y": 180, "rotateZ":1500}'><img src="assets/images/fl-shape-6.png" alt="Aravinth Panch | araCreate"></span>
+    <span data-parallax='{"x": 180, "y": 10, "rotateZ":2000}'><img src="assets/images/fl-shape-7.png" alt="Aravinth Panch | araCreate"></span>
+    <span data-parallax='{"x": 250, "y": -30, "rotateX":2000}'><img src="assets/images/fl-shape-8.png" alt="Aravinth Panch | araCreate"></span>
+    <span data-parallax='{"x": 60, "y": -100}'><img src="assets/images/fl-shape-9.png" alt="Aravinth Panch | araCreate"></span>
+    <span data-parallax='{"x": -30, "y": 150, "rotateZ":1500}'><img src="assets/images/fl-shape-10.png" alt="Aravinth Panch | araCreate"></span>
   </div>
 </section><!-- about -->
