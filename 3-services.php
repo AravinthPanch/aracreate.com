@@ -12,7 +12,7 @@
           </div>
           <div class="icon-box-details">
             <h3 class="icon-box-title">Embedded Systems</h3>
-            <p>IoT, Firmware, Embedde Linux, Embedded Application</p>
+            <p>IoT, Firmware, Embedded Linux, Embedded Application</p>
           </div>
         </div>
       </div>
