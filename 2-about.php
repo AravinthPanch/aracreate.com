@@ -8,10 +8,12 @@
     <div class="row align-items-center">
       <div class="col-lg-6">
         <div class="about-content">
-          <h2>Make Your Dreams Made</h2>
-          <p>With 17+ years of global experience, Aravinth has gained an expertise on multidisciplinary Research and Development of any hardware-software innovations, thereby taking an idea from prototype to production.</p>
+          <h2>Aravinth is helping tech companies to make informed decisions</h2>
+          <p>Aravinth is an interdisciplinary expert with 17+ years of global experience in science, engineering, sustainability and arts, with the core expertise in research, development and production of electro-mechanical embedded systems and
+            digital products.</p>
 
-          <p>The company, araCreate UG, was therefore born to make entrepreneurs dreams made true, by supporting them with the expertise and the network of Aravinth</p>
+          <p>He co-founded 9 organisations, worked for 2 big corporations & 8 tech startups, mentored 120+ deep tech startups and researched at 4 academic research institutions, with that he gained experience in EdTech, BioTech, NanoTech, BlueTech, GreenTech, CleanTech, PropTech, AgriTech, Healthcare, Smart
+            Mobility, Smart City, etc.</p>
         </div>
       </div>
       <div class="col-lg-6">
